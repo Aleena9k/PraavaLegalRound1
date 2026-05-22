@@ -67,16 +67,16 @@ export default function PortalCard({
 
       <div className="min-w-0 flex-1 py-0.5">
         <p className="text-[15px] font-bold leading-tight text-[var(--hero-portal-text)]">
-          Jenish Desai - Portal
+          john doe - Portal
         </p>
         <p className="mt-1 text-xs leading-snug text-[var(--hero-portal-muted)]">
           Hey! Could you please review a document for me?
         </p>
         <p className="mt-1.5 text-[11px] font-medium text-[var(--hero-muted)]">
           <span className="underline decoration-[var(--hero-muted)]/80 underline-offset-2">
-            MAT-2226
+            MAT-2233
           </span>
-          {" - 3 h ago"}
+          {" - 2 h ago"}
         </p>
       </div>
     </motion.div>
