@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --hero-bg: #f8fafc;
+    --hero-navy: #1e293b;
+    --hero-navy-bold: #0f172a;
+    --hero-muted: #64748b;
+    --hero-subtext: #3b82f6;
+    --hero-orange: #ea580c;
+    --hero-orange-accent: #f97316;
+    --hero-blue: #2563eb;
+    --hero-navy-card: #1e1b4b;
+    --hero-portal: #d1d5f5;
+    --hero-portal-text: #1e293b;
+    --hero-portal-muted: #475569;
+    --hero-pill: #d8dde8;
+  }
+
+  .dark {
+    --hero-bg: #0f172a;
+    --hero-pill: #2a2a38;
+    --hero-subtext: #93c5fd;
+    --hero-portal: #8e8ed4;
+    --hero-portal-text: #f1f5f9;
+    --hero-portal-muted: #cbd5e1;
+  }
+}
